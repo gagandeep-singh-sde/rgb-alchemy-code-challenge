@@ -1,0 +1,20 @@
+.container {
+    position: relative;
+}
+
+.row {
+    display: flex;
+}
+
+.circleSelectorTop {
+    position: absolute;
+    top: -23px;
+}
+.circleSelectorLeft {
+    position: absolute;
+    left: -23px;
+}
+.circleSelectorRight {
+    position: absolute;
+    right: -23px;
+}
