@@ -77,6 +77,8 @@ const RGBAlchemy = (props) => {
                       onClick={(e) => {
                         handleTilePos(e, i, j);
                       }}
+                      data-x={i}
+                      data-y={j}
                     >
                       <Tile />
                     </div>
