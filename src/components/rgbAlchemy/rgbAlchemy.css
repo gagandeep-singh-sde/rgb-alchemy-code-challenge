@@ -5,6 +5,31 @@
 .row {
     display: flex;
 }
+.row:first-child div{
+    border-radius: 50%;
+    cursor: default;
+}
+.row:first-child > div:first-child{
+    visibility: hidden;
+}
+.row:first-child > div:last-child{
+    visibility: hidden;
+}
+.row:nth-child(n+2) > div:first-child {
+    border-radius: 50%;
+}
+.row:nth-child(n+2) > div:last-child {
+    border-radius: 50%;
+}
+.row:last-child div{
+    border-radius: 50%;
+}
+.row:last-child > div:first-child{
+    visibility: hidden;
+}
+.row:last-child > div:last-child{
+    visibility: hidden;
+}
 
 .circleSelectorTop {
     position: absolute;
